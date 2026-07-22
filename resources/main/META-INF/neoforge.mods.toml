@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/yourname/yourrepo/issues"
+
+[[mods]]
+modId="goldenberrymod"
+version="1.0.0"
+displayName="Golden Berry Mod"
+logoFile="logo.png"
+authors="You"
+description='''
+A simple mod that adds a Golden Berry to Minecraft.
+'''
+
+[[dependencies.goldenberrymod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.goldenberrymod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.242,)"
+    ordering="NONE"
+    side="BOTH"

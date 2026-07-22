@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "B": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NBN",
+    "NNN"
+  ],
+  "result": {
+    "id": "goldenberrymod:golden_berry",
+    "count": 1
+  }
+}
